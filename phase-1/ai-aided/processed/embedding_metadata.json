@@ -1,0 +1,16 @@
+{
+  "dimension": 768,
+  "embedding_dtype": "float16",
+  "image_size": 256,
+  "inference_dtype": "float32",
+  "lowercase": true,
+  "max_captions_per_lang": null,
+  "model": "google/siglip2-base-patch16-256",
+  "n_captions": 261375,
+  "n_images": 3600,
+  "normalized": true,
+  "records_sha256": "ec7f2b7c2dca8e7e4d86d520290d3d038cb4cc45f3fe9be1c860acf01a619ddc",
+  "revision": "3f9f96cb90da5dbc758b01813f2f6f1aee24c1ab",
+  "text_max_length": 64,
+  "use_fast_processor": false
+}

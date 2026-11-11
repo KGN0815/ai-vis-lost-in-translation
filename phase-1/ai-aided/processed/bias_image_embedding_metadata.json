@@ -1,0 +1,14 @@
+{
+  "dimension": 768,
+  "embedding_dtype": "float16",
+  "image_size": 256,
+  "inference_dtype": "float32",
+  "lowercase": true,
+  "manifest_sha256": "534134fe533251fff947e9072efe4757f217fa1f3f11c753e785e14024211768",
+  "max_captions_per_lang": null,
+  "model": "google/siglip2-base-patch16-256",
+  "normalized": true,
+  "revision": "3f9f96cb90da5dbc758b01813f2f6f1aee24c1ab",
+  "text_max_length": 64,
+  "use_fast_processor": false
+}

@@ -1,0 +1,26 @@
+body { margin: 0; background: #f4f6f8; color: #20333f; font-family: Arial, sans-serif; }
+h3, h4 { color: #173d50; }
+.investigation { max-width: 1440px; margin: 30px auto; text-align: left; }
+.summary-strip { display: flex; gap: 20px; flex-wrap: wrap; margin: 20px 0; }
+.summary-strip > div { flex: 1; min-width: 200px; background: white; padding: 20px; border-top: 3px solid #26798b; border-radius: 5px; }
+.summary-strip strong { display: block; font-size: 29px; margin-bottom: 8px; }
+.summary-strip span { color: #576b77; font-size: 13px; }
+.analysis-panel { background: white; padding: 24px; border: 1px solid #dbe3e8; border-radius: 5px; }
+.analysis-panel h3 { margin-top: 0; }
+.muted { color: #576b77; line-height: 1.6; font-size: 13px; max-width: 1100px; }
+.notice { background: #eaf2f5; border-left: 3px solid #26798b; padding: 13px 16px; margin: 15px 0; line-height: 1.6; font-size: 13px; }
+.control-row { display: flex; flex-wrap: wrap; gap: 16px; margin: 20px 0; }
+.control { display: block; min-width: 190px; flex: 1; max-width: 500px; }
+.control-label { display: block; font-weight: bold; font-size: 12px; margin-bottom: 8px; }
+.candidate-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin: 24px 0; align-items: start; }
+.candidate-card { border: 1px solid #dbe3e8; border-radius: 5px; padding: 10px; background: #fafcfd; font-size: 12px; max-width: 420px; }
+.candidate-card strong { display: block; min-height: 32px; }
+.candidate-card img { display: block; width: 100%; height: 180px; object-fit: contain; margin: 8px 0; }
+.candidate-card small { color: #6b7a83; }
+.caption-comparison { display: flex; flex-wrap: wrap; gap: 25px; line-height: 1.6; font-size: 13px; }
+.caption-comparison > div { flex: 1; min-width: 230px; }
+button { background: #173d50; color: white; border: 0; padding: 10px 16px; border-radius: 4px; cursor: pointer; margin: 12px 8px 12px 0; }
+input, textarea { box-sizing: border-box; max-width: 100%; padding: 8px; border: 1px solid #bbcbd3; border-radius: 3px; }
+details { margin-top: 20px; padding: 14px; border: 1px solid #dbe3e8; }
+summary { cursor: pointer; font-weight: bold; }
+@media (max-width: 700px) { .analysis-panel { padding: 12px; } .control { min-width: 150px; } }

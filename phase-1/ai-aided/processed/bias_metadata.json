@@ -1,0 +1,51 @@
+{
+  "adult_age_bands": [
+    "20-29",
+    "30-39"
+  ],
+  "audit_version": 1,
+  "crop_padding": 0.25,
+  "dataset": "HuggingFaceM4/FairFace",
+  "dataset_revision": "54d573cdb8b5af490ba8da9da2799628f6e5c496",
+  "dimension": 768,
+  "embedding_dtype": "float16",
+  "image_size": 256,
+  "inference_dtype": "float32",
+  "labels": "Dataset-provided perceived categories; not inferred identities or skin-tone labels.",
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "es",
+    "ja",
+    "sw"
+  ],
+  "license": "CC BY 4.0",
+  "lowercase": true,
+  "manifest_sha256": "534134fe533251fff947e9072efe4757f217fa1f3f11c753e785e14024211768",
+  "max_captions_per_lang": null,
+  "model": "google/siglip2-base-patch16-256",
+  "n_candidates": 448,
+  "n_neutral_families": 5,
+  "n_prompts": 54,
+  "n_unreviewed_translations": 45,
+  "normalized": true,
+  "per_stratum": 16,
+  "prompts_sha256": "6eff768dfe9a4e318ba6217bded39b1b1beaa94c1fe664baef115f34b5c4e5ce",
+  "revision": "3f9f96cb90da5dbc758b01813f2f6f1aee24c1ab",
+  "seed": 20261111,
+  "source_sha256": "d0cfac2888356b3d3fa3d837bc30961d8c860934e4c5df862e8cb87812bfa137",
+  "source_split": "validation",
+  "source_url": "https://huggingface.co/datasets/HuggingFaceM4/FairFace/resolve/54d573cdb8b5af490ba8da9da2799628f6e5c496/0.25/validation-00000-of-00001-951dbd63c8724ee1.parquet",
+  "subsample_candidates": 336,
+  "subsample_fraction": 0.75,
+  "subsample_repetitions": 500,
+  "text_max_length": 64,
+  "top_k": [
+    1,
+    10,
+    50
+  ],
+  "uncertainty": "Central 95% balanced-subset stability ranges, not population confidence intervals or significance tests.",
+  "use_fast_processor": false
+}

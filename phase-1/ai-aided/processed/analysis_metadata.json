@@ -1,0 +1,104 @@
+{
+  "analysis_languages": [
+    "ar",
+    "bn",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "en",
+    "es",
+    "fa",
+    "fi",
+    "fil",
+    "fr",
+    "he",
+    "hi",
+    "hr",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "mi",
+    "nl",
+    "no",
+    "pl",
+    "pt",
+    "quz",
+    "ro",
+    "ru",
+    "sv",
+    "sw",
+    "te",
+    "th",
+    "tr",
+    "uk",
+    "vi",
+    "zh"
+  ],
+  "analysis_version": 1,
+  "bootstrap": 2000,
+  "dimension": 768,
+  "drop_images_from_distractors": true,
+  "embedding_dtype": "float16",
+  "global_tests": {
+    "all/margin": {
+      "image_centered": {
+        "effect": 0.013670297549527586,
+        "p": 0.0002
+      },
+      "raw": {
+        "effect": 0.013670297549527585,
+        "p": 0.0002
+      }
+    },
+    "all/recall_at_1": {
+      "image_centered": {
+        "effect": 0.098573544973545,
+        "p": 0.0002
+      },
+      "raw": {
+        "effect": 0.09857354497354502,
+        "p": 0.0002
+      }
+    },
+    "without_hi/margin": {
+      "image_centered": {
+        "effect": 0.01414573151876257,
+        "p": 0.0002
+      },
+      "raw": {
+        "effect": 0.014145731518762573,
+        "p": 0.0002
+      }
+    },
+    "without_hi/recall_at_1": {
+      "image_centered": {
+        "effect": 0.10181106442577031,
+        "p": 0.0002
+      },
+      "raw": {
+        "effect": 0.10181106442577033,
+        "p": 0.0002
+      }
+    }
+  },
+  "image_size": 256,
+  "inference_dtype": "float32",
+  "lowercase": true,
+  "max_captions_per_lang": null,
+  "model": "google/siglip2-base-patch16-256",
+  "n_captions": 261375,
+  "n_images": 3600,
+  "n_retrieval_captions": 261375,
+  "normalized": true,
+  "permutations": 4999,
+  "records_sha256": "ec7f2b7c2dca8e7e4d86d520290d3d038cb4cc45f3fe9be1c860acf01a619ddc",
+  "revision": "3f9f96cb90da5dbc758b01813f2f6f1aee24c1ab",
+  "seed": 20261111,
+  "text_max_length": 64,
+  "token_counts_available": true,
+  "top_k": 5,
+  "use_fast_processor": false
+}

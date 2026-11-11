@@ -1,0 +1,15 @@
+numpy
+pandas
+pyarrow
+pillow
+dash
+plotly
+matplotlib
+# notebook execution in VS Code and command-line execution/export
+ipykernel
+nbconvert
+# Model inference and tokenization
+torch
+transformers>=4.49,<5
+sentencepiece
+protobuf

@@ -1,0 +1,18 @@
+{
+  "adult_age_bands": [
+    "20-29",
+    "30-39"
+  ],
+  "crop_padding": 0.25,
+  "dataset": "HuggingFaceM4/FairFace",
+  "dataset_revision": "54d573cdb8b5af490ba8da9da2799628f6e5c496",
+  "labels": "Dataset-provided perceived categories; not inferred identities or skin-tone labels.",
+  "license": "CC BY 4.0",
+  "manifest_sha256": "534134fe533251fff947e9072efe4757f217fa1f3f11c753e785e14024211768",
+  "n_candidates": 448,
+  "per_stratum": 16,
+  "seed": 20261111,
+  "source_sha256": "d0cfac2888356b3d3fa3d837bc30961d8c860934e4c5df862e8cb87812bfa137",
+  "source_split": "validation",
+  "source_url": "https://huggingface.co/datasets/HuggingFaceM4/FairFace/resolve/54d573cdb8b5af490ba8da9da2799628f6e5c496/0.25/validation-00000-of-00001-951dbd63c8724ee1.parquet"
+}

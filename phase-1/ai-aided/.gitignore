@@ -1,0 +1,20 @@
+# notebooks (Kaggle/Colab helpers)
+*.ipynb
+
+# raw data (download from https://google.github.io/crossmodal-3600/)
+data/
+xm3600/
+
+# model outputs: regenerate using the pinned checkpoint, share large arrays via a Release
+processed/*embeddings.npy
+processed/*.tmp.npy
+processed/chunks*/
+
+# Python / IDE
+__pycache__/
+*.pyc
+.idea/
+
+# analysis notebooks we DO want in git
+!Phase_I_Experiments.ipynb
+!supplementary/family_vs_culture_analysis.ipynb

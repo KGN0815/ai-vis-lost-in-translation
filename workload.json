@@ -1,0 +1,25 @@
+{
+    "team_name": "Lost in Translation",
+    "students": [
+        {
+            "first_name": "William Johann",
+            "last_name": "Strouhal",
+            "workload": 0.25
+        },
+        {
+            "first_name": "Jakob",
+            "last_name": "Schwarzmaier",
+            "workload": 0.25
+        },
+        {
+            "first_name": "Klaus",
+            "last_name": "Niederberger",
+            "workload": 0.25
+        },
+        {
+            "first_name": "Markus",
+            "last_name": "Brunner",
+            "workload": 0.25
+        }
+    ]
+}

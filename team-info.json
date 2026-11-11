@@ -1,0 +1,33 @@
+{
+    "team_name": "Lost in Translation",
+    "students": [
+        {
+            "student_id": "K12240477",
+            "first_name": "William Johann",
+            "last_name": "Strouhal",
+            "email": "study.strouhal@gmail.com",
+            "github_user": "powerbill8"
+        },
+        {
+            "student_id": "K12141831",
+            "first_name": "Markus",
+            "last_name": "Brunner",
+            "email": "m.brunner2@me.com",
+            "github_user": "Snips-SP"
+        },
+        {
+            "student_id": "K12342339",
+            "first_name": "Klaus",
+            "last_name": "Niederberger",
+            "email": "github.groin334@passmail.com",
+            "github_user": "KGN0815"
+        },
+        {
+            "student_id": "K12325928",
+            "first_name": "Jakob",
+            "last_name": "Schwarzmaier",
+            "email": "jakob.schwarzmaier17@gmail.com",
+            "github_user": "jakobschw17"
+        }
+    ]
+}
